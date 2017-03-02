@@ -1,0 +1,36 @@
+gnore
+*.orig
+
+# pass file
+src/main/resource.dev/conf.*
+
+# maven ignore
+target/
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+net.gcl.tickit.iml
+src/main/main.iml
+src/test/test.iml
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# grab_ticket.iml
+grab_ticket.iml
